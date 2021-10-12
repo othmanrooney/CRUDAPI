@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container body-content" ng-app="myApp">
+    <div class=" " ng-controller="EmployeeController">
+
+        <div style="margin-bottom: 100px; margin-right: 150px; margin-left: 80px;margin-top:30px;" ng-include="'/Template/EmployeeList.html'">
+
+        </div>
+    </div>
+</div>
+xxxxxxxxxxx
+<script src="~/Scripts/angular.min.js"></script>
+<script src="~/Service.js"></script>
+<script src="~/controller/EmployeeController.js"></script>
